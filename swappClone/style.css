@@ -1,0 +1,20 @@
+.navbar{
+  background-color: rgb(18, 107, 18);
+}
+.content{
+  color:white;
+}
+.fix button{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+footer ul li{
+  list-style-type: none;
+  text-decoration: underline;
+}
+footer ul li input{
+  background-color: black;
+  padding: 8px;
+  margin-top: 5px;
+}
