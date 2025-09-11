@@ -1,0 +1,128 @@
+.navlinks ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+}
+.navlinks button{
+    background-color: #FFBD59;
+    color: #213E7A;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+}
+.first-pg{
+    background-image:url(imaggee.jfif) ;
+    background-size: auto;
+    background-position: center;
+    color: white;
+    padding: 140px;
+}
+.content{
+    font-family: serif;
+    font-weight: bolder;
+}
+.first-pg-buttons button:nth-child(1){
+    background-color: #FFC107;
+    color: #213E7A;
+    border:none;
+    font-weight: 600;
+}
+.first-pg-buttons button:nth-child(2){
+    background-color: #213E7A;
+    color:#FFC107;
+    border:none;
+    font-weight: 600;
+}
+.second-pg{
+    background-color: #F3F5F9;
+}
+.lt-content{
+    height: 40vh; 
+    font-size: 50px;
+    font-family: serif;
+    font-weight: 600;
+}
+.row .rt-content h1{
+    color: #FFBD59;
+    font-weight: 700;
+}
+form label{
+    display: block;
+}
+form input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+}
+.cl-date input{
+    border: 3px solid #213E7A;
+}
+.d-pay input{
+    border: none;
+    background-color: #E9ECEF;
+}
+.in-fun input{
+    border: none;
+    background-color: #E9ECEF;
+}
+.rehab input{
+    border: none;
+    background-color: #E9ECEF;
+}
+.deal input{
+    border: none;
+    background-color: #E9ECEF;
+}
+.total-amt input{
+    border: 3px solid #213E7A;
+    background-color: #A1FFA2;
+}
+.list ul{
+    font-size: small;
+}
+.red-text h6{
+    color: #F4365C;
+}
+.red-text button{
+    color: #36407A;
+    background-color: #FFC107;
+    border: none;
+    font-weight: 600;
+}
+.text-content{
+    background-color: #1C4082;
+}
+.text-end button{
+    color:#1C4082;
+    background-color: #FFC107;
+    border: none;
+    font-weight: 700;
+}
+.text-content {
+  height: 300px;    
+  border-radius: 40px;
+}
+.text-content p{
+    color: #ADBACD;
+}
+.col-lg-6 img{
+    height: 300px;
+    width: 100%;
+    border-radius: 40px;
+}
+.loan-pr{
+    color: #FFBD59;
+}
+.number {
+  height: 60px;
+  width: 60px;
+  background-color: #FFBD59;
+  border-radius: 50%;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  margin:20px auto;
+}
