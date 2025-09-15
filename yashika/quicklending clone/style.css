@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  height: 100px;
+}
+
+.nav-logo img {
+  height: 60px;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-text {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+ul{
+    margin-bottom: 0px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: black;
+}
+.nav-btn{
+    color: #153e8f;
+    font-weight: 600;
+}
+.nav-icon {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding-left: 0px;
+}
+
+.nav-icon a {
+  color: black;
+  font-size: 18px;
+}
+.main{
+  height: 90vh;
+  background: url("banner2.jpg") ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+.main-content{
+    padding-left: 30px;
+}
+.main-content h1{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 2.5;
+    color: white;
+}
+.main-content h3{
+    font-size: 40px ;
+    font-weight: 300;
+    line-height: 2;
+    color: white;
+}
+
+.main-btn1{
+    height: 50px;
+    width: 200px;
+    color: #153e8f;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+.main-btn2{
+    height: 50px;
+    width: 200px;
+    color:#ffc107;
+    background-color: #153e8f;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+}
+.funds {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 80px;
+  flex-wrap: wrap;
+  width: 100%;    
+  margin-top: 60px;
+}
+
+.fund-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.fund-left h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.fund-right {
+  flex: 2;
+  min-width: 400px;
+  padding-left: 60px;
+}
+
+.fund-right p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #222;
+}
+
+.fund-stat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  text-align: center;
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.stat h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f6b73c;
+  margin-bottom: 8px;
+}
+
+.stat p {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.calculator-section {
+  max-width: 1000px;
+  margin: 80px;
+  padding-left: 60px;
+}
+
+.calculator-section h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.calculator-box {
+  background: #e8e8e8;
+  padding: 20px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.actual-box{
+  background: #fffbea;
+  padding: 20px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+input, select {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background:#153e8f;
+  border-radius: 6px;
+  color: #fff;
+  padding: 20px;
+  gap: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result-box {
+  padding: 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.result-box p {
+  margin: 0;
+  font-size: 25px;
+  opacity: 0.9;
+}
+
+.result-box h3 {
+  margin: 5px 0 0;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.terms{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.terms p{
+  color: red;
+}
+.cal-btn{
+  margin-top: 20px;
+  justify-content: center;
+}
+.loan h2{
+  text-align: center;
+  margin: 60px;
+  font-size: 55px;
+  font-weight: 700;
+}
+.card{
+  background-color:#153e8f;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  border: none;
+}
+.card-body{
+  padding: 40px;
+}
+.card-title{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 2;
+  color: white;
+}
+.card-text{
+  color: white;
+  line-height: 2;
+}
+.card a{
+  margin: 8px;
+}
+.card img{
+  border-radius: 50px;
+  border: none;
+}
+.process{
+  background-color: #153e8f;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+.loan-card img{
+  min-height: 221px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.process-section {
+  background-color: #153e8f; 
+  padding: 50px 0;
+}
+
+.process-title {
+  color: #ffc107;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.process-row {
+  display: flex;
+  justify-content: center;
+}
+
+.process-card {
+  background:#153e8f;
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+}
+
+.process-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.step-no {
+  background-color: #ffc107;
+  color: #153e8f;
+  font-weight: bold;
+  font-size: 18px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.process-card h3 {
+  color:white;
+  margin-bottom: 10px;
+}
+
+.process-card p {
+  color: white;
+  font-size: 14px;
+}
+.process-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.we-section {
+  margin-top: 60px;
+  padding: 50px 80px;
+}
+
+.we-content {
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+}
+
+.we-title h1 {
+  white-space: nowrap;  
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  color: #f6b73c;
+}
+
+.we-para {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  max-width: 900px; 
+}
+.we-cards {
+  display: flex;
+  gap: 30px;
+  margin: 40px 80px;
+}
+
+.we-card {
+  background-image: url("banner2.jpg");
+  padding: 25px;
+  border-radius: 40px;
+  height: 300px;
+  width: 500px;
+  margin-left: 20px;
+}
+
+.we-card h2 {
+  font-size: 42px;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+}
+
+.we-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
