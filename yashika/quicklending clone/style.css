@@ -69,14 +69,17 @@ ul{
 .main-content h1{
   font-size: 50px;
   font-weight: 900;
-  line-height: 2.5;
   color: white;
+  font-family: serif;
+
 }
 .main-content h3{
   font-size: 40px ;
   font-weight: 300;
   line-height: 2;
   color: white;
+  font-family: serif;
+
 }
 .main-btn1{
   height: 50px;
@@ -99,7 +102,6 @@ ul{
 .funds {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   padding: 80px;
   flex-wrap: wrap;
   width: 100%;    
@@ -117,6 +119,8 @@ ul{
   font-weight: bold;
   margin: 0;
   line-height: 1.2;
+  font-family: serif;
+
 }
 
 .fund-right {
@@ -244,7 +248,10 @@ form input {
   border-radius: 5px;
   outline: none;
 }
-
+.container-loan{
+  display: flex;
+  justify-content: center;
+}
 .loan h2{
   text-align: center;
   margin: 60px;
@@ -316,9 +323,10 @@ form input {
 .process-card {
   background:#153e8f;
   border-radius: 12px;
-  padding: 20px;
-  width: 300px;
+  padding: 10px;
+  width: 400px;
   text-align: center;
+
 }
 
 .process-card img {
@@ -397,7 +405,7 @@ form input {
   padding: 25px;
   border-radius: 40px;
   height: 300px;
-  width: 500px;
+  width: 600px;
   margin-left: 20px;
 }
 
