@@ -98,12 +98,13 @@ ul{
 }
 .funds {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  padding: 50px 80px;
+  padding: 80px;
   flex-wrap: wrap;
   width: 100%;    
-  margin-top: 60px;
+  background:rgb(246,248,252);
+
 }
 
 .fund-left {
@@ -166,29 +167,60 @@ ul{
 .cal-container{
   background-color: #E8E8E8;
   padding: 48px;
+  border-radius: 10px;
 }
 .cal-container2{
   background-color: #FFFBEB;
-  padding: 44px;
+  padding: 16px;
   margin: 30px 0;
+  border-radius: 10px;
+}
+.cal-border{
+  border: 3px solid #1C4082;
+  border-radius: 5px;
+}
+.cal-border2 input{
+  background-color: #e9ecef;
+}
+.cal-border3 input{
+  border: 3px solid green;
+  background-color: rgb(161, 255, 162);
+}
+.col-3{
+  padding: 0px;
 }
 .box2{
   margin: 5px;
 }
 .cal-container3{
   background-color: #1C4082;
+  border-radius: 5px;
 }
 .estimate{
   text-align: center;
   color: white;
   padding: 10px;
 }
+.estimate h1{
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+.estimate p{
+  font-weight: 600;
+}
 .line{
   color: white;
 }
 .list{
-  padding: 10px 0;
   font-size: 12px;
+  margin-top: 10px;
+
+}
+.list ul{
+  padding: 10px;
+}
+.bx1{
+  margin-bottom: 20px;
 }
 .terms{
   display: flex;
@@ -198,15 +230,19 @@ ul{
 }
 .terms h6{
   color: red;
+  font-weight: 100;
 }
 form label {
-    display: block;
+  display: block;
+  font-size: 15px;
 }
 
 form input {
   width: 100%;
-  border: 1px solid #ccc;
-  padding: 8px 12px;
+  border: 1px solid #dee2e6;
+  padding: 10px 12px;
+  border-radius: 5px;
+  outline: none;
 }
 
 .loan h2{
@@ -295,10 +331,10 @@ form input {
 .step-no {
   background-color: #ffbd59;
   color: #153e8f;
-  font-weight: bold;
-  font-size: 18px;
-  width: 50px;
-  height: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
   margin: 0 auto 10px;
   border-radius: 50%;
   display: flex;
@@ -324,6 +360,8 @@ form input {
 .we-section {
   margin-top: 60px;
   padding: 50px 80px;
+  display: flex;
+  justify-content: center;
 }
 
 .we-content {
@@ -348,6 +386,7 @@ form input {
 }
 .we-cards {
   display: flex;
+  justify-content: center;
   gap: 30px;
   margin: 40px 80px;
 }
@@ -466,25 +505,41 @@ form input {
 }
 .contact-info{
   background-color:#1c4082;
+  display: flex;
+  justify-content: center;
   padding: 0 56px;
 }
 .footer-container{
   display: flex;
+  justify-content: center;
   padding: 80px;
-  gap: 30px;
 }
+.footer-container > div {
+  flex: 1;             
+  min-width: 200px;    
+}
+
 .about-us img{
   height: 65px;
   width: 150px;
 }
 .about-us p{
   margin: 0 0 16px;
-  padding: 16px 0 0;
   font-size: 13px;
+}
+.para1{
+  padding-top: 16px;
 }
 .contact-us{
   padding: 0 15px;
 
+}
+.contact-us p{
+    font-size: 14px;
+}
+.contact-us hr{
+    border: 1px solid #ffffff;
+    margin-top: -15px;
 }
 .about-us{
   padding: 0 15px;
@@ -494,6 +549,11 @@ form input {
   display: flex;
   flex-direction: column;
   padding: 0 15px;
+}
+.footer-links hr{
+    border: 1px solid #ffffff;
+    color: white;
+    margin-top: -15px;
 }
 .footer-social{
   display: flex;
@@ -522,6 +582,15 @@ form input {
 }
 .footer-social a{
   font-size: 14px;
-  margin-bottom: 10px;
 }
-
+.footer-social hr{
+  border: 1px solid #ffffff;
+  color: white;
+  margin-top: -15px;
+}
+.footer-social a i{
+  margin: 10px;
+}
+.contact-us p i{
+  margin-right: 10px;
+}
