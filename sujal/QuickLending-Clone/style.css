@@ -1,0 +1,240 @@
+.navlinks ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: black;
+}
+
+.navlinks button {
+    background-color: #FFBD59;
+    color: #213E7A;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.first-pg {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 140px;
+    height: 90vh;
+}
+
+.content h1{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+
+.first-pg-buttons button:nth-child(1) {
+    background-color: #FFC107;
+    color: #213E7A;
+    border: none;
+    font-weight: 600;
+}
+
+.first-pg-buttons button:nth-child(2) {
+    background-color: #213E7A;
+    color: #FFC107;
+    border: none;
+    font-weight: 600;
+}
+
+.second-pg {
+    background-color: #F3F5F9;
+}
+
+.lt-content {
+    height: 40vh;
+    font-size: 50px;
+    font-family: serif;
+    font-weight: 600;
+}
+
+.row .rt-content h1 {
+    color: #FFBD59;
+    font-weight: 700;
+}
+
+.closing {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+form label {
+    display: block;
+}
+
+form input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+}
+
+.cl-date input {
+    border: 3px solid #213E7A;
+}
+
+.d-pay input {
+    border: none;
+    background-color: #E9ECEF;
+}
+
+.in-fun input {
+    border: none;
+    background-color: #E9ECEF;
+}
+
+.rehab input {
+    border: none;
+    background-color: #E9ECEF;
+}
+
+.deal input {
+    border: none;
+    background-color: #E9ECEF;
+}
+
+.total-amt input {
+    border: 3px solid #213E7A;
+    background-color: #A1FFA2;
+}
+
+.list ul {
+    font-size: small;
+}
+
+.red-text h6 {
+    color: #F4365C;
+}
+
+.red-text button {
+    color: #36407A;
+    background-color: #FFC107;
+    border: none;
+}
+
+.text-content {
+    background-color: #1C4082;
+}
+
+.text-end button {
+    color: #1C4082;
+    background-color: #FFC107;
+    border: none;
+    font-weight: 700;
+}
+
+.text-content {
+    height: 345px;
+    border-radius: 40px;
+}
+
+.text-content p {
+    color: #ADBACD;
+}
+
+.col-lg-6 img {
+    height: 345px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.loan-pr {
+    color: #FFBD59;
+}
+
+.number {
+    height: 60px;
+    width: 60px;
+    background-color: #FFBD59;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.text-center button{
+    color: #1C4082;
+    background-color: #FFC107;
+    border: none;
+    font-weight: 700;
+}
+.lower{
+    background-color: #F3F5F9;
+}
+.content-7{
+    padding-top: 100px;
+}
+.who-we-are h1{
+    color: #FFBD59;
+    font-size: 50px;
+    font-weight: 700;
+}
+.who-we-p{
+    font-size: 18px;
+}
+.image-who{
+    display: flex;
+    justify-content:center ;
+    gap: 100px;
+    margin-top: 100px;
+}
+.card1{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 325px;
+    color: white;
+    border-radius: 50px;
+    padding: 50px;
+    margin-bottom: 80px;
+}
+.card1 h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+.card2 h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+.card2{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 325px;
+    color: white;
+    border-radius: 50px;
+    padding: 50px;
+}
+.team h1{
+    color: #FFBD59;
+    font-weight: 700;
+}
+.team button{
+    color: #1D283E;
+}
+.design-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.card-team{
+    border-right: 10px solid #FDC324 ;
+    border-left: 10px solid #FDC324 ;
+    border-top: 10px solid #1C4082;
+    border-bottom: 10px solid #1C4082;
+    max-width: 400px;
+    padding:10px 60px;
+}
+footer{
+    font-size: 14px;
+}
