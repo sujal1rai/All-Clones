@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.hero {
+  position: relative;
+  height: 100vh;  
+  overflow: hidden;
+}
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.navbar{
+    display: flex;
+    height: 90px;
+    width: 82%;
+    margin: 30px auto;
+    background-color: #02044A ;
+    padding: 20px 50px;
+    border-radius: 50px;
+    position: relative;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0px;
+    color: white;
+}
+ul li{
+    font-size: 16px;
+}
+.navlogo img{
+    height: 50px;
+    margin-right: 50px;
+}
+.nav-btn .btn{
+    border-radius: 35px;
+    padding: 13px 35px;
+}
+.navlogo {
+  margin-left: 40px; 
+}
+
+.nav-btn {
+  margin-right: 15px; 
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  color: white;
+  max-width: 900px;    
+  margin-left: 110px;   
+  margin-top: 60px;
+  text-align: left;    
+}
+.hero-content h1{
+    font-size: 72px;
+    line-height: 1.1;
+}
+.hero-content span{
+    font-weight: 600;
+}
+.pg2{
+    background-color: #02044A ;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.pg-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+   
+}
+.pg-content h1{
+    font-size: 72px;
+}
+.pg-content p{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 100;
+    color: #B9B9B9;
+}
+.pg3{
+    padding: 100px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pg3-text{
+    text-align: center;
+}
+.pg3-text h1{
+    color: #172272;
+    font-weight: 700;
+    font-size: 72px;
+    padding: 0 12px 48px;
+    margin-bottom: 16px;
+}
+.pg3-text h4{
+    color: #172272;
+    margin-bottom: 16px;
+}
+.pg3-text h5{
+    color: #B9B9B9;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.pg3-text h5 span{
+    color: rgba(14, 116, 255, 1);
+    font-weight: 700;
+}
+.pg3-card {
+  background-color: #02044A;
+  background-image: url("background.png"); 
+  background-size: cover;
+  border-radius: 20px;
+  width: 1150px;
+  height: 270px;
+  margin-top: 48px;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-card {
+  color: white;
+  text-align: center;
+  min-width: 300px;
+}
+
+.info-card .icon img {
+  width: 60px;
+  margin-bottom: 16px;
+}
+
+.info-card h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.info-card p {
+  font-size: 20px;
+  color: #B9B9B9;
+}
+
+.details-btn {
+  margin-top: 15px;
+}
+
+.details-btn button {
+  background-color: #172272;
+  color: white;
+  border: 0.5px solid #585858;
+  border-radius: 40px;
+  width: 340px;
+  padding: 30px 20px;
+  font-size: 18px;
+}
+.details-btn button i{
+    color: white;
+    width: 33px;
+    height: 21px;
+}
+.pg4{
+    position: relative;
+    background-image: url("background.png");
+    background-color: #02044A;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.pg4 .ring1{
+    position: absolute;
+    top: 16%;
+    left: 0;
+}
+.pg4-text{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+.pg4-text h4{
+    color:#B9B9B9;
+}
+.pg4-text h1{
+    font-size: 82px;
+    padding-bottom: 80px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 50px;
+}
+.box1{
+    background-color: white;
+    width: 320px;
+    padding: 24px 48px 40px;
+    border-radius: 15px;
+}
+.box1 h4{
+    line-height: 1.5;
+}
+.box1 span{
+    color:#7E8197;
+}
+.ring2{
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+}
+.pg5{
+    padding: 100px 1px 120px;
+    background: #FFFDFA;
+}
+.pg5-text h1{
+    text-align: center;
+    font-size: 72px;
+    line-height: 95px;
+    color:#172272;
+    margin-bottom: 3rem;
+}
+.pg5-card{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.boxes{ 
+    background-color: white;
+    color:#172272;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 16px 16px 16px rgba(23, 34, 114, 0.08);
+}
+.boxes h4{
+    color: #7E8197;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.boxes h2{
+    line-height: 1.7;
+    font-size: 24px;
+}
+.new-box{
+    background-color:#172272;
+    color: white;
+}
+.pg6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #02044A;
+    position: relative;
+    padding: 100px 1px 120px;
+}
+.pg6 .svg1{
+    position: absolute;
+    top: 0%;
+}
+.pg6-ring1{
+    position: absolute;
+    left: 0;
+    top: 9%;
+}
+.pg6-text{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.pg6-text h1{
+    font-weight: 300;
+    font-size: 82px;
+    margin-bottom: 50px;
+}
+.pg6-card{
+    display: flex;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    height: 240px;
+    width: 1150px;
+    margin: auto;
+    padding: 50px;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.call{
+    font-size: 25px;
+    color: #172272;
+    padding-right: 40px;
+    border-right: 0.5px solid #C5ADA0;
+}
+.mail{
+    font-size: 25px;
+    color: #172272;
+    padding-right: 40px;
+    border-right: 0.5px solid #C5ADA0;
+}
+.address{
+    font-size: 25px;
+    color: #172272;
+    padding: 25px 5px;
+}
+.pg6-2text h4{
+    text-align: center;
+    color: white;
+    margin: 80px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.pg6 .svg2{
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+}
+.contact-ring{
+    height: 95px;
+    width: 50px;
+    position: absolute;
+    bottom: 25%;
+    right: 0;
+}
+.form{
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    padding: 40px;
+    width: 1150px;
+    margin: auto;
+}
+.row label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.row input{
+    display: block;
+    min-width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 8px;
+}
+.msg-box input{
+    height: 120px;
+    margin-bottom: 80px;
+}
+.contact-btn{
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contact-btn button{
+  position: relative;
+  background-color: #172272;
+  color: white;
+  border: 0.5px solid #585858;
+  border-radius: 50px;
+  width: 250px;
+  padding: 30px 20px;
+  font-size: 18px;
+}
+.foot-container{
+    padding: 40px 120px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.foot-content{
+    display: flex;
+    align-items: center;
+    max-width: 1150px;
+    gap: 40px;
+    flex: 1;
+}
+.foot-img img{
+    height: 66px;
+    width: 140px;
+}
+.foot-img{
+    flex: 2;
+}
+.foot-text{
+    flex: 1;
+    justify-content: flex-end;
+    color: white;
+}
+.foot-text p{
+    font-size: 18px;
+    line-height: 1.7;
+}
