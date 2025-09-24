@@ -326,40 +326,84 @@
     color: #AA9C95;
     margin-bottom: 80px;
 }
-
-.form-box {
-  background-color: #1a1a1a;
-  border-radius: 20px;
+.form{
+    position: relative;
+    background-color: #191919;
+    padding: 50px 50px 100px 50px;
+    border-radius: 20px;
 }
-
-.custom-input {
-  background-color: #111;
-  border: none;
-  border-radius: 50px;
-  color: #fff;
-  padding: 12px 20px;
+.name form{
+    display: flex;
+    flex-direction: column;
 }
-
-.custom-input::placeholder {
-  color: #666;
+label{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ABABAB;
 }
-
-.custom-select {
-  background-color: #111;
-  border: none;
-  border-radius: 50px;
-  color: #fff;
-  padding: 10px 15px;
+.inp{
+    background-color: #141414;
+    padding: 30px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 20px;
+    width: 90%;
 }
-
-.custom-btn {
-  background-color: #111;
-  border: 1px solid #666;
-  border-radius: 50px;
-  color: #e5c9b5;
-  font-weight: 500;
+.phone-no{
+    display: flex;
 }
-
-.custom-btn:hover {
-  background-color: #222;
+.select{
+    background-color: #0C0C0C;
+    padding: 30px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    border: 0.5px solid white;
+}
+ .contact-inp{
+    background-color: #141414;
+    padding: 30px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+.form-btn{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    right: 84%;
+    left: 0;
+    margin-top: 120px;
+}
+.img2{
+    position: absolute;
+    right: 0;
+    margin-top: 25%;
+}
+.pg7{
+    background-color: #191919;
+}
+.pg7-content{
+    padding: 30px 50px;
+}
+.pg7-img img{
+    height: 70px;
+    width: 150px;
+}
+.pg7-img{
+    padding: 30px 0;
+}
+.pg7-text p{
+    font-size: 18px;
+    color: #AA9C95;
+}
+.our-ring{
+    position: absolute;
+    right: 0;
+    margin-top: 29.5%;
 }
