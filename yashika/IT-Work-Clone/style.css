@@ -41,6 +41,7 @@ body{
 .hero-text button{
     padding: 10px 20px;
     background-color: #00ff57;
+    border: 1px solid #00ff57;
 }
 .hero-text{
     padding: 0 40px;
@@ -133,6 +134,15 @@ body{
     background-color: #00ff57;
     color: black;
 }
+.pg6-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.pg6-btn i{
+    color: #00ff57;
+    font-size: 10px;
+}
 .pg7-content{
     padding: 80px;
 }
@@ -191,6 +201,7 @@ body{
     background-color: #00ff57;
     color: black;
     font-weight: 700;
+    border: 1px solid #00ff57;
 }
 .pg8-address{
     padding-top: 40px;
@@ -243,3 +254,4 @@ body{
 .pg9-text .para{
     font-size: 12px;
 }
+
