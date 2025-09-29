@@ -203,3 +203,43 @@ body{
 .pg8-add-text p{
     margin-bottom: 0;
 }
+.pg9-content{
+    padding-top: 170px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.pg9-content img{
+    height: 420px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.pg9-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.pg9-text img{
+    position: relative;
+    height: 70px;
+    width: 200px;
+    bottom: 0%;
+}
+.pg9-text h4{
+    font-weight: 600;
+}
+.pg9-text p{
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    line-height: 1.48;
+}
+.pg9-text .para{
+    font-size: 12px;
+}
