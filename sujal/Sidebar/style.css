@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    background-color: #f7f8f8;
+    width: 250px;
+}
+
+.sidebar.collapsed {
+    width: 70px;
+}
+
+.logo {
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marketing p {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(120, 120, 120);
+}
+
+.payment p {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(120, 120, 120);
+}
+
+.system p {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(120, 120, 120);
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+}
+
+.sidebar.collapsed a span {
+    display: none;
+}
+
+.sidebar.collapsed .logo h1 {
+    font-size: 0;
+}
+
+.sidebar.collapsed .logo h1::first-letter {
+    font-size: 30px;
+    color: black;
+}
+
+.sidebar.collapsed .title {
+    font-size: 0;
+}
+
+.sidebar.collapsed .title::first-letter {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(120, 120, 120);
+}
+.sidebar.collapsed .info .text{
+    display: none;
+}
+.sidebar.collapsed .info .img{
+    display: block;
+}
+.sidebar.collapsed .toggle-btn{
+    margin-left: 25px;
+}
+.toggle-btn {
+    cursor: pointer;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 10px 0 5px 15px;
+}
+
+.text {
+    display: block;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}

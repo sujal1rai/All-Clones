@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <section class="sidebar" id="sidebar">
+    <div class="logo">
+      <h1>Flup</h1>
+      <i class="fa fa-angle-left toggle-btn" id="toggleBtn" style="display: flex;justify-content: center;align-items: center;"></i>
+    </div>
+
+    <div class="marketing">
+      <p class="title">Marketing</p>
+      <a href="#"><i class="fa-solid fa-grip"></i> <span>Dashboard</span></a>
+      <a href="#"><i class="fa-solid fa-cart-shopping"></i> <span>Marketplace</span></a>
+      <a href="#"><i class="fa-solid fa-bag-shopping"></i> <span>Order</span></a>
+      <a href="#"><i class="fa-solid fa-people-arrows"></i> <span>Tracking</span></a>
+      <a href="#"><i class="fa-solid fa-person"></i> <span>Customers</span></a>
+      <a href="#"><i class="fa-solid fa-tag"></i> <span>Discounts</span></a>
+    </div>
+
+    <div class="payment">
+      <p class="title">Payments</p>
+      <a href="#"><i class="fa-solid fa-calculator"></i> <span>Ledger</span></a>
+      <a href="#"><i class="fa-solid fa-sack-dollar"></i> <span>Taxes</span></a>
+    </div>
+
+    <div class="system">
+      <p class="title">System</p>
+      <a href="#"><i class="fa-solid fa-gear"></i> <span>Settings</span></a>
+      <a href="#"><i class="fa-solid fa-paint-brush"></i> <span>Theme</span></a>
+    </div>
+    <div class="info" style="margin-top: 120px;">
+      <img class="img rounded-5 ms-2" src="image.jpg" alt="" height="35px">
+      <div class="text ms-2">
+        <p class="text-black mb-0 fw-bold">Harper Nelson</p>
+        <p class="mb-0">Admin Manager</p>
+      </div>
+    </div>
+
+    <div class="logout mt-2">
+      <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i><span>Log Out</span></a>
+    </div>
+  </section>
+
+  <script>
+    const sidebar = document.getElementById("sidebar");
+    const toggleBtn = document.getElementById("toggleBtn");
+
+    toggleBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("collapsed");
+      toggleBtn.classList.toggle("fa-angle-left");
+      toggleBtn.classList.toggle("fa-angle-right");
+    });
+  </script>
+</body>
+
+</html>
