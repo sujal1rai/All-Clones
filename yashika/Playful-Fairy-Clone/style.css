@@ -96,9 +96,11 @@
     color: #0C0C0C;
 }
 .pg2-text p{
-    font-size: 24px;
+    font-size: 26px;
     color: #6F6F6F;
-    font-weight: 100;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    letter-spacing: -0.04em;
 }
 .pg3 {
     background-color:#191919;
@@ -197,6 +199,7 @@
 }
 .pg4{
     background-color: #0C0C0C;
+    position: relative;
 }
 .pg4-ring{
     position: absolute;
@@ -227,8 +230,10 @@
 .pg4-card-text h4{
     line-height: 1.5;
 }
-.pg4-svg{
-    margin-bottom: 40px;
+.pg4 .our-ring{
+    position: absolute; 
+    bottom: 0; 
+    right: 0 ;
 }
 .pg5{
     background-color: #191919;
@@ -265,6 +270,8 @@
 }
 .pg6{
     background-color: #0C0C0C;
+    position: relative;
+     overflow: hidden; 
 }
 .pg6-ring{
     position: absolute;
@@ -272,6 +279,11 @@
 .pg6-ring2{
     position: absolute;
     right: 0;
+}
+.img2{
+    position: absolute;
+    right: 0;
+    bottom:27% ;
 }
 .pg6-content1{
     padding: 90px;
@@ -379,11 +391,6 @@ label{
     right: 84%;
     left: 0;
     margin-top: 120px;
-}
-.img2{
-    position: absolute;
-    right: 0;
-    margin-top: 25%;
 }
 .pg7{
     background-color: #191919;
