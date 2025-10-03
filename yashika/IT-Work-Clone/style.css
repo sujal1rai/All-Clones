@@ -82,7 +82,7 @@ body{
 .pg3-img img{
     height: 300px;
 }
-.pg3-text a{
+.pg3-text .pg3-btn a{
     text-decoration: none;
     color: #00ff57;
 }
