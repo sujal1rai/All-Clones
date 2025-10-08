@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    margin: 50px;
+    padding-top: 10px;
+     background-image: url("swapp_new.png");
+    background-size: cover;
+    height: 120vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img{
+    height: 30px;
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.navlist a{
+    text-decoration: none;
+    color: white;
+}
+.nav-btn{
+    display: flex;
+    gap: 20px;
+}
+.nav-btn button{
+    font-size: 12px;
+    font-weight: 700;
+}
+.nav-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 30px;
+    
+}
+.hero-img img{
+    height: 220px;
+}
+.hero-icon1{
+    gap: 5px;
+    font-weight: 900;
+}
+.hero-icon1 i{
+    color: black;
+    font-size: 14px;
+}
+.hero-text h3,h6{
+    font-weight: 700;
+}
+.hero-icon1 p{
+    font-weight: 700;
+}
+.pg2-content{
+    padding: 40px;
+}
+.pg2-content img{
+    height: 600px;
+}
+.pg2-content h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.pg3-content{
+    padding: 40px;
+}
+.pg3-images img{
+    height: 200px;
+}
+.banner1{
+    margin: 0 50px ;
+    padding: 30px;
+    background-color: #191d28;
+}
+.banner1 h3{
+    font-weight: 700;
+}
+.pg3-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.pg3-icons img{
+    height: 40px;
+}
+.pg3-text{
+    padding-top: 80px;
+}
+.banner2{
+    background-color: #0dc189;
+    margin: 0 50px;
+    padding-bottom: 50px;
+}
+.card{
+    width: 300px;
+    padding: 20px;
+    background-color: #1d2730;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+.card-icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.card-btn button{
+    width: 100%;
+    font-weight: 700;
+    background-color: #06c26e;
+}
+.card-icons i{
+    color: #0847b1;
+}
+.banner2-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+sub{
+    font-size: small;
+}
+.pg4-content{
+    margin: 0 50px;
+    background-color: #defbf6;
+    padding: 80px;
+}
+.pg4-img img{
+    height: 300px;
+}
+.pg4-text h3{
+    font-weight: 700;
+}
+.pg4-text p{
+    font-weight: 500;
+}
+.pg4-img2 img{
+    height: 400px;
+}
+.pg5-content{
+    margin: 0 50px;
+    background-color: #f7f7f7;    
+    padding: 80px;
+}
+.pg5-img img{
+    height: 350px;
+}
+.para{
+    margin-top: 6rem;
+}
+.pg5-text1 h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.pg5-text1 h4{
+    font-weight: 700;
+}
+.pg5-text2 p{
+    font-weight: 700;
+}
+.pg6-content{
+    margin: 0 50px;
+    background-color: #191d28;    
+    padding: 80px;
+}
+.pg6-text hr{
+    border: 5px solid #06c26e;
+}
+.pg6-row h1{
+    font-weight: 700;
+}
+.pg6-row p{
+    font-weight: 600;
+}
+.pg7-content{
+    margin: 0 50px;
+    background-color: #0dc189;    
+    padding: 80px;
+}
+.pg7-content h1{
+    font-weight: 700;
+}
+.pg7-card{
+    background-color: #191d28;
+    width: 500px;
+    padding: 50px 20px 30px;
+    border-radius: 8px;
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+}
+.pg7-card img{
+    height: 50px;
+}
+.pg7-card span{
+    color: yellow;
+}
+.card-col{
+    display: flex;
+    justify-content: center;
+}
+.pg8-content{
+    margin: 0 50px;
+    background-color: #191d28;    
+    padding: 80px 80px 50px;
+}
+.footer img{
+    height: 50px;
+}
+.socials{
+    display: flex;
+    gap: 30px;
+}
+.socials i{
+    font-size: 25px;
+}
+.footer-links a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-card{
+    padding: 10px;
+    background-color: #06c26e;
+    display: flex;
+    border-radius: 5px;
+    gap: 5px;
+}
+.footer-card p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.last-text p{
+    color: grey;
+}
+.pg8-container{
+    gap: 20px;
+}
