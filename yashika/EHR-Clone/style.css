@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    margin: 50px ;
+}
+.hero-col1{
+    background-color: #BBDEFE;
+    height: 100vh;
+}
+.logo img{
+    height: 60px;
+    width: 50px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+    padding-bottom: 0;
+}
+.logo h4{
+    color: #012446;
+}
+.hero-content{
+    padding: 30px;
+    margin-top: 60px;
+}
+.hero-text h1{
+    font-size: 65px;
+    color: #012446;
+    font-weight: 600;
+}
+.hero-text p{
+    width: 90%;
+    font-size: 16px;
+    color: #012446;
+    font-weight: 600;
+}
+.hero-text button{
+    padding: 10px 50px;
+    background-color: #012446;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.hero-btn{
+    display: flex;
+    gap: 30px;
+    align-self: center;
+}
+.hero-btn img{
+    padding-top: 10px;
+    height: 50px;
+}
+.img1{
+    height: 100vh;
+    max-width: 100%;    
+}
+.navlist{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.navlist a {
+    text-decoration: none;
+    color: black;
+}
+.navlist button {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+.pg2-text1{
+    padding-left: 70px;
+    max-width: 90%;
+}
+.pg2-text1 h1{
+    color: #012446;
+    font-weight: 600;
+    font-size: 45px;
+}
+.pg2-text2{
+    color: #012446;
+    font-weight: 600;
+}
+.desktop img{
+    width: 100%;
+    border:25px solid #012446;
+    border-radius: 30px;
+}
+.pg3-content{
+    padding: 0px;
+}
+.pg3-card h3{
+    color: #012446;
+}
+.pg3-card p{
+    font-weight: 600;
+}
+.pg3-card img{
+    height: 60px;
+    border-radius: 10px;
+}
+.strip{
+    display: flex;
+    justify-content: space-between;
+}
+.strip h2{
+    color: #012446;
+}
+.pg4-text1{
+    padding: 70px 30px;
+}
+.pg4-text1 h1{
+    font-size: 70px;
+    color: #012446;
+}
+.pg4-text1 p{
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+.pg4-col1{
+    background-color: #BBDEFE;
+}
+.pg4-text2 p{
+    font-weight: 600;
+}
+.pg4-text2 .para{
+    margin-top: 80px;
+}
+.pg4-container{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 60px;
+}
+.mobile-view img{
+    height: 500px;
+}
+.mob1{
+    position: relative;
+    top: -100px;
+}
+.mob2{
+    position: relative;
+    left: 200px;
+    top: -200px;
+}
+.mob3{
+    position: relative;
+    left: 400px;
+    top: -100px;
+}
+.pg5-text{
+    margin-top: 100px;
+}
+.pg5-text h1{
+    font-size: 50px;
+    color: #012446;
+}
+.pg5-text p{
+    color: #012446;
+    font-weight: 600;
+}
+.pg5-container{
+    padding-left: 50px;
+}
+.pg5-img img{
+    height: 600px;
+    border: 20px solid #012446;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+}
+.pg5-img{
+    width: 100%;
+}
+.pg5-btn{
+    color: #012446;
+    font-weight: 600;
+     background-color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.pg6-img{
+    background-color: #eaedf4;
+}
+.pg6-img img{
+    height: 600px;
+}
+.pg6-text{
+    margin-top: 150px;
+}
+.pg6-text h1,p{
+    color: #012446;
+}
+.pg6-text p{
+    font-weight: 600;
+}
+.pg7-img img{
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+}
+.pg7-card{
+    padding-left: 50px;
+    color: #012446;
+}
+.pg7-card p{
+    font-weight: 600;
+}
+.pg8-text{
+    background-color: #BBDEFE;
+    color: #012446;
+    border-radius: 10px 10px 0 0;
+}
+.pg8-btn{
+    background-color: #BBDEFE;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 50px;
+}
+.pg8-text p{
+    font-weight: 600;
+}
+.pg8-text h1{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.pg9-content {
+    color: #012446;
+}
+.pg9-card{
+    background-color: #f8f8f8;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.profile{
+    display: flex;
+    gap: 10px;
+}
+.profile img{
+    height: 50px;
+    border-radius: 50%;
+}
+.pg10-content{
+    color: #012446;
+}
+.pg10-text1 h1{
+    font-size: 50px;
+}
+.pg10-card p{
+    font-weight: 600;
+
+}
+.pg10-card{
+    background-color: #eaedf4;
+    border-radius: 10px;
+}
+.card-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.card-div i{
+    background-color: black;
+    font-weight: 900;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 18px 0 0 20px;
+    margin-top: 10px;
+    color: white;
+}
+.card-list{
+    font-weight: 600;
+}
+.card-list li{
+    font-size: 14px;
+}
+.card2{
+    background-color:#BBDEFE;
+}
+.card3{
+    background-color: #012446;
+}
+.card3 p{
+    color: white;
+}
+.card2 .card-div{
+    border-top: 2px solid black;
+}
+.card3 .card-div{
+    border-top: 2px solid white;
+}
+.card3 .card-div i{
+    color: black;
+    background-color: white;
+}
+.footer{
+    margin: 50px;
+}
+.footer-content{
+    background-color: #BBDEFE;
+    display: flex;
+    gap: 90px;
+}
+.fot-img1 img{
+    border: 20px solid #012446;
+    width: 90%;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+}
+.fot-img2 img{
+    position: relative;
+    top: -400px;
+    height: 500px;
+    margin-bottom: -350px;
+}
+.footer-form{
+    width: 50%;
+}
+.form{
+    background-color: white;
+    margin-top: 30px;
+    width: 92%;
+    color: #012446;
+    border-radius: 10px;
+}
+.form-cont{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.form-cont p{
+    color: #8C8C8C;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form-cont i{
+    color: #98A7B3;
+    margin-bottom: 1px;
+    font-size: 12px;
+    text-align: center;
+}
+.form-btn button{
+    background-color: #012446;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+}
+.form p{
+    color: #8C8C8C;
+}
+.cookie{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cookie i{
+    font-size: 25px;
+}
+.bottom-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.bottom-btn button{
+    background-color: #BBDEFE;
+    padding: 10px 20px;
+    border: none;
+}
+.bottom-text p{
+    color: #8C8C8C;
+    font-size: 14px;
+}
