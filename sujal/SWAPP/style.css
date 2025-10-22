@@ -1,0 +1,329 @@
+.hero-sec {
+  background-image: url(hero-bg.png);
+}
+
+.navbar {
+  height: 10vh;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbuttons button {
+  color: white;
+  background-color: #191D28;
+  border: none;
+  border-radius: 6px;
+}
+
+.navbuttons button:nth-child(2) {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+}
+
+.hero-cont {
+  height: 90vh;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.hero-cont h2,
+p {
+  font-weight: 700;
+}
+
+.hero-cont button {
+  color: white;
+  background-color: #191D28;
+  border: none;
+  border-radius: 6px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.card1 {
+  width: 33%;
+  border-radius: 8px;
+}
+
+.card1 sub {
+  font-size: small;
+}
+
+.list i {
+  color: #0A44A9;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icons p {
+  font-weight: 400;
+}
+
+.button button {
+  background-color: #06C26E;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.five-imgs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 600px;
+}
+
+.image-5 {
+  width: 230px;
+}
+
+.image-5:nth-child(1) {
+  transform: rotateY(45deg) scale(0.99);
+}
+
+.image-5:nth-child(2) {
+  transform: rotateY(15deg) scale(0.99);
+}
+
+.image-5:nth-child(3) {
+  transform: rotateY(0deg) scale(1.2);
+  z-index: 2;
+}
+
+.image-5:nth-child(4) {
+  transform: rotateY(-25deg) scale(0.99);
+}
+
+.image-5:nth-child(5) {
+  transform: rotateY(-45deg) scale(0.99);
+}
+.cont-5 h4 {
+  font-weight: 700;
+}
+
+.cont-5 p {
+  font-weight: 400;
+}
+
+.head h1 {
+  font-weight: 700;
+}
+
+.head h4 {
+  font-weight: 700;
+}
+
+.progress {
+  background: linear-gradient(to right, #06C26E 60%, #ccc 50%);
+  border: none;
+}
+
+.content-8 h3 {
+  font-weight: 700;
+}
+
+.content-8 p {
+  font-weight: 400;
+}
+
+.lange {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-8 {
+  display: none;
+  border-radius: 8px;
+}
+
+.card-8.active {
+  display: block;
+}
+
+.card-8 span {
+  color: yellow;
+}
+
+.card-8 p {
+  font-weight: 400;
+}
+
+.icons-foot {
+  display: flex;
+  gap: 30px;
+}
+
+.icons-foot i {
+  font-size: 25px;
+}
+
+.f-links a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.card-f {
+  background-color: #06C26E;
+  display: flex;
+  border-radius: 8px;
+}
+
+.heart p {
+  size: 10px;
+  color: gray;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .links {
+    margin-top: 10px;
+  }
+
+  .navbuttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .hero-cont {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .hero-cont img {
+    height: 15;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .cont-5 {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .five-imgs-container .image-5:nth-child(1),
+  .image-5:nth-child(2),
+  .image-5:nth-child(4),
+  .image-5:nth-child(5){
+    display: none;
+  }
+  .head {
+    text-align: center;
+  }
+
+  .page-5 img,
+  .page-6 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-8 {
+    width: 70%;
+  }
+
+  .f-links {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbuttons button {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .hero-sec {
+    height: auto;
+    padding: 20px 0;
+    background-size: cover;
+  }
+
+  .hero-cont h2 {
+    font-size: 22px;
+  }
+
+  .cen-img img {
+    width: 100%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card1 {
+    width: 90%;
+  }
+
+  .page-2 img,
+  .page-3 img {
+    width: 60%;
+    height: auto;
+  }
+
+  .card-8 {
+    width: 90%;
+  }
+
+  .lange h4 {
+    font-size: 16px;
+  }
+
+  .icons-foot {
+    justify-content: center;
+  }
+
+  .f-links {
+    text-align: center;
+  }
+
+  .card-f {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-f .f-img {
+    margin-top: 10px;
+  }
+}
