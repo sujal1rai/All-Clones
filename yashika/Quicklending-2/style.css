@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-color: #181818;
+    height: 100vh;
+}
+.navbar{
+    height: 10vh;
+}
+.navbar-nav{
+    gap: 30px;
+}
+.navbar-nav button{
+    background-color: #02D5F4;
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+.hero-cont{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.hero-cont h1{
+    font-size: 4.5vw;
+    font-weight: 700; 
+    line-height: 1.1;
+    background: linear-gradient(to right, #9d50bb, #00c9ff);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.hero-cont h5{
+    font-size: 1.5vw;
+}
+.hero-cont button{
+    background-color: #02D5F4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.hero-img{
+    height: 450px;
+    width: 350px;
+    border: 1px solid white;
+}
+.hero-img img{
+   height: 100%;
+   width: 100%;
+}
+.hero-images{
+    display: flex;
+}
+.second-img{
+    position: relative;
+    left:10%;
+}
+.first-img{
+    position:absolute;
+    left:30%;
+    top: -30px;
+}
+.pg2-content{
+    background-color: #181818;
+}
+.pg2-cards{
+    background-color: #000000;
+}
+.pg2-card i{
+    font-size: 5vw;
+    background: linear-gradient(to right, #9d50bb, #3c76ce);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.pg2-card h6{
+    padding-bottom: 2rem;
+}
+.pg3-content{
+    background-color: #181818;
+}
+.pg3-text h1{
+    background: linear-gradient(to right, #9d50bb, #3c76ce);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.progress{
+    height: 2px;
+    background-color: #0c3c40;
+}
+.pg3-card button{
+    background-color: #02D5F4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.pg3-button{
+    display: flex;
+    justify-content: center;
+}
+.pg3-cards{
+    background-color: #000000;
+    border-radius: 5px;
+}
+.pg3-card p{
+    color: #717a82;
+}
+.pg4-content{
+    background-color: #181818;
+}
+.pg4-text h1{
+    font-size: 3.5vw;
+    background: linear-gradient(to right, #9d50bb, #00c9ff);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.pg4-text button{
+    background-color: #02D5F4;
+}
+.pg5-content{
+    background-color: #181818;
+}
+.pg5-text h1{
+    font-size: 4vw;
+    background: linear-gradient(to right, #9d50bb, #00c9ff);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.rating{
+    color: yellow;
+    font-size: 20px;
+}
+.para{
+    background: linear-gradient(to right, #9d50bb, #00c9ff);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.pg5-cards{
+    background-color: #000000;
+    border: 3px solid #02D5F4;
+}
+.pg6-content{
+    background-color: #181818;
+}
+.pg6-text h1{
+    font-size: 4vw;
+    background: linear-gradient(to right, #9d50bb, #00c9ff);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.que{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq i{
+    cursor: pointer;
+}
+.faq h5{
+    background: linear-gradient(to right, #00c9ff, #02D5F4);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.pg7-content{
+    background-color: #181818;
+}
+.pg7-text h1{
+    font-size: 3.5vw;
+    background: linear-gradient(to right, #9d50bb, #00c9ff);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.pg7-text h6{
+    background: linear-gradient(to right, #9d50bb, #00c9ff);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.message{
+    height: 250px;
+}
+.form-sec button{
+    background-color: #00c9ff;
+    padding: 1rem 3rem;
+}
+.footer-content{
+    background-color: #181818;
+}
+.social{
+    display: flex;
+    gap: 15px;
+}
+.fot-col a{
+    text-decoration: none;
+    color: white;
+}
